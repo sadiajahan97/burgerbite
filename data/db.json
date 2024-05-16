@@ -1,0 +1,324 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Chicken Burger",
+      "description": "Chicken Patty, Special Sauce",
+      "image": "chicken-burger",
+      "category": "Chicken Burgers",
+      "price": 210
+    },
+    {
+      "id": 2,
+      "name": "Chicken With Cheese",
+      "description": "Chicken Patty, Cheese, Special Sauce",
+      "image": "chicken-with-cheese",
+      "category": "Chicken Burgers",
+      "price": 235
+    },
+    {
+      "id": 3,
+      "name": "Chicken Smoky BBQ Cheese",
+      "description": "BBQ Sauce, Chicken Patty, Cheese",
+      "image": "chicken-smoky-bbq-cheese",
+      "category": "Chicken Burgers",
+      "price": 260
+    },
+    {
+      "id": 4,
+      "name": "Chicken With Bacon",
+      "description": "Chicken Patty, Beef Bacon",
+      "image": "chicken-with-bacon",
+      "category": "Chicken Burgers",
+      "price": 270
+    },
+    {
+      "id": 5,
+      "name": "Chicken With Sausage",
+      "description": "Chicken Patty, 2X Chicken Sausage, Cheese",
+      "image": "chicken-with-sausage",
+      "category": "Chicken Burgers",
+      "price": 290
+    },
+    {
+      "id": 6,
+      "name": "Double Decker Chicken",
+      "description": "2X Chicken Patty, 2X Cheese",
+      "image": "double-decker-chicken",
+      "category": "Chicken Burgers",
+      "price": 360
+    },
+    {
+      "id": 7,
+      "name": "Chicken Cheese Blast",
+      "description": "2X Melted Cheese Inside A Double Sized Chicken Patty & Cheese Outside",
+      "image": "chicken-cheese-blast",
+      "category": "Chicken Burgers",
+      "price": 385
+    },
+    {
+      "id": 8,
+      "name": "Chicken Signature",
+      "description": "2X Chicken Patty, 2X Cheese, Chicken Pastrami, Poached Egg",
+      "image": "chicken-signature",
+      "category": "Chicken Burgers",
+      "price": 450
+    },
+    {
+      "id": 9,
+      "name": "Giganto Chicken",
+      "description": "Giant Chicken Patty, 2X Cheese, Double Beef Bacon, BBQ Sauce",
+      "image": "giganto-chicken",
+      "category": "Chicken Burgers",
+      "price": 520
+    },
+    {
+      "id": 10,
+      "name": "Binge Chicken",
+      "description": "2X Giant Chicken Patty, Smoked Chicken, Chicken Ham, 3X Cheese",
+      "image": "binge-chicken",
+      "category": "Chicken Burgers",
+      "price": 750
+    },
+    {
+      "id": 11,
+      "name": "Beef Burger",
+      "description": "Beef Patty, Special Sauce",
+      "image": "beef-burger",
+      "category": "Beef Burgers",
+      "price": 210
+    },
+    {
+      "id": 12,
+      "name": "Beef With Cheese",
+      "description": "Beef Patty, Cheese, Special Sauce",
+      "image": "beef-with-cheese",
+      "category": "Beef Burgers",
+      "price": 235
+    },
+    {
+      "id": 13,
+      "name": "Beef Smoky BBQ Cheese",
+      "description": "BBQ Sauce, Beef Patty, Cheese",
+      "image": "beef-smoky-bbq-cheese",
+      "category": "Beef Burgers",
+      "price": 260
+    },
+    {
+      "id": 14,
+      "name": "Beef With Bacon",
+      "description": "Beef Patty, Beef Bacon",
+      "image": "beef-with-bacon",
+      "category": "Beef Burgers",
+      "price": 270
+    },
+    {
+      "id": 15,
+      "name": "Beef With Sausage",
+      "description": "Beef Patty, 2X Chicken Sausage, Cheese",
+      "image": "beef-with-sausage",
+      "category": "Beef Burgers",
+      "price": 290
+    },
+    {
+      "id": 16,
+      "name": "Double Decker Beef",
+      "description": "2X Beef Patty, 2X Cheese",
+      "image": "double-decker-beef",
+      "category": "Beef Burgers",
+      "price": 360
+    },
+    {
+      "id": 17,
+      "name": "Beef Cheese Blast",
+      "description": "2X Melted Cheese Inside A Double Sized Beef Patty & Cheese Outside",
+      "image": "beef-cheese-blast",
+      "category": "Beef Burgers",
+      "price": 385
+    },
+    {
+      "id": 18,
+      "name": "Beef Signature",
+      "description": "2X Beef Patty, 2X Cheese, Beef Pastrami, Poached Egg",
+      "image": "beef-signature",
+      "category": "Beef Burgers",
+      "price": 450
+    },
+    {
+      "id": 19,
+      "name": "Giganto Beef",
+      "description": "Giant Beef Patty, 2X Cheese, Double Beef Bacon, BBQ Sauce",
+      "image": "giganto-beef",
+      "category": "Beef Burgers",
+      "price": 520
+    },
+    {
+      "id": 20,
+      "name": "Binge Beef",
+      "description": "2X Giant Beef Patty, Smoked Chicken, Chicken Ham, 3X Cheese",
+      "image": "binge-beef",
+      "category": "Beef Burgers",
+      "price": 750
+    },
+    {
+      "id": 21,
+      "name": "Naga Drums (1 Pcs)",
+      "description": "",
+      "image": "naga-drums",
+      "category": "Naga Drums",
+      "price": 110
+    },
+    {
+      "id": 22,
+      "name": "Naga Drums (2 Pcs)",
+      "description": "",
+      "image": "naga-drums",
+      "category": "Naga Drums",
+      "price": 215
+    },
+    {
+      "id": 23,
+      "name": "Cold Coffee",
+      "description": "",
+      "image": "cold-coffee",
+      "category": "Shakes",
+      "price": 160
+    },
+    {
+      "id": 24,
+      "name": "Munch",
+      "description": "",
+      "image": "munch",
+      "category": "Shakes",
+      "price": 160
+    },
+    {
+      "id": 25,
+      "name": "Oreo",
+      "description": "",
+      "image": "oreo",
+      "category": "Shakes",
+      "price": 180
+    },
+    {
+      "id": 26,
+      "name": "Nutella",
+      "description": "",
+      "image": "nutella",
+      "category": "Shakes",
+      "price": 200
+    },
+    {
+      "id": 27,
+      "name": "Snickers",
+      "description": "",
+      "image": "snickers",
+      "category": "Shakes",
+      "price": 200
+    },
+    {
+      "id": 28,
+      "name": "Ferrero Rocher",
+      "description": "",
+      "image": "ferrero-rocher",
+      "category": "Shakes",
+      "price": 210
+    },
+    {
+      "id": 29,
+      "name": "Pankha Wings (6 Pcs)",
+      "description": "Chicken Wings, Any 3 Flavors From BBQ / Sweet 'N' Naga / Honey / Achari / Sriracha",
+      "image": "pankha-wings",
+      "category": "Pankha Wings",
+      "price": 240
+    },
+    {
+      "id": 30,
+      "name": "French Fries (Regular)",
+      "description": "",
+      "image": "french-fries",
+      "category": "Sides",
+      "price": 95
+    },
+    {
+      "id": 31,
+      "name": "French Fries (Large)",
+      "description": "",
+      "image": "french-fries",
+      "category": "Sides",
+      "price": 160
+    },
+    {
+      "id": 32,
+      "name": "Chicken Fingers (5 Pcs)",
+      "description": "",
+      "image": "chicken-fingers",
+      "category": "Sides",
+      "price": 175
+    },
+    {
+      "id": 33,
+      "name": "Chicken Fingers (10 Pcs)",
+      "description": "",
+      "image": "chicken-fingers",
+      "category": "Sides",
+      "price": 330
+    },
+    {
+      "id": 34,
+      "name": "Tira-Miss-U",
+      "description": "Italian Dessert Made With Cookies, Cheese & Fluffy Coffee Cream",
+      "image": "tira-miss-u",
+      "category": "Desserts",
+      "price": 200
+    },
+    {
+      "id": 35,
+      "name": "Red Velvet",
+      "description": "Divine Taste Of Red Velvet Cake With Smooth Velvety Cream Cheese",
+      "image": "red-velvet",
+      "category": "Desserts",
+      "price": 210
+    },
+    {
+      "id": 36,
+      "name": "Oreo & Cheese",
+      "description": "Crunchy Oreo Crust & Creamy Cheese Cake",
+      "image": "oreo&cheese",
+      "category": "Desserts",
+      "price": 200
+    },
+    {
+      "id": 37,
+      "name": "Choco Fudge",
+      "description": "Heavenly Creation Of Rich Chocolate Fudge & Smooth Choco Cream",
+      "image": "choco-fudge",
+      "category": "Desserts",
+      "price": 210
+    },
+    {
+      "id": 38,
+      "name": "Blueberry Cheese Dip",
+      "description": "Blueberry Infused With The Touch Of Cream Cheese",
+      "image": "blueberry-cheese-dip",
+      "category": "Desserts",
+      "price": 190
+    },
+    {
+      "id": 39,
+      "name": "Fish Tots (6 Pcs)",
+      "description": "Dory Fish Tots, Tartar Sauce",
+      "image": "fish-tots",
+      "category": "Fish",
+      "price": 195
+    },
+    {
+      "id": 40,
+      "name": "Fish 'N' Krisp",
+      "description": "Dory Fish Patty, Tartar Sauce",
+      "image": "fish-n-krisp",
+      "category": "Fish",
+      "price": 320
+    }
+  ]
+}
