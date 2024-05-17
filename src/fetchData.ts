@@ -21,7 +21,7 @@ export default async function () {
     if (!menu) {
       throw new Error('There was a problem in parsing the JSON data.');
     }
-    return menu;
+    return menu.items;
   } catch (error) {
     console.error(error);
   }
