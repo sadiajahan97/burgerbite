@@ -4,11 +4,11 @@ export default async function () {
     if (!response.ok) {
       throw new Error('There was a problem in fetching the JSON data.');
     }
-    const menuData = await response.json();
-    if (!menuData) {
+    const menu = await response.json();
+    if (!menu) {
       throw new Error('There was a problem in parsing the JSON data.');
     }
-    return menuData;
+    return menu;
   } catch (error) {
     console.error(error);
   }
