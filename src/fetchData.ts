@@ -24,5 +24,6 @@ export default async function () {
     return menu.items;
   } catch (error) {
     console.error(error);
+    return [];
   }
 }
