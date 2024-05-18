@@ -1,15 +1,22 @@
+import { useState, useEffect } from 'react';
+import { MenuItemType } from './fetchData';
 import fetchData from './fetchData';
 import MenuItem from './MenuItem';
 
-export default async function () {
-  const items = await fetchData();
-  if (items) {
-    return (
-      <ul role='menu'>
-        {items.map(item => (
-          <MenuItem key={item.id} item={item} />
-        ))}
-      </ul>
-    );
-  }
+export default function () {
+  const [menu, setMenu] = useState<MenuItemType[]>([]);
+  useEffect(() => {
+    async function fetchMenu() {
+      const items = await fetchData();
+      setMenu(items);
+    }
+    fetchMenu();
+  }, []);
+  return (
+    <ul role='menu'>
+      {menu.map(item => (
+        <MenuItem key={item.id} item={item} />
+      ))}
+    </ul>
+  );
 }
