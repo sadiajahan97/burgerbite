@@ -1,10 +1,10 @@
-import { MenuItem } from './fetchData';
+import { MenuItemType } from './fetchData';
 
-interface Item {
-  item: MenuItem;
+interface ItemType {
+  item: MenuItemType;
 }
 
-export default function ({ item }: Item) {
+export default function ({ item }: ItemType) {
   return (
     <li role='menu-item'>
       <img

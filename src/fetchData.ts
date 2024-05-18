@@ -1,4 +1,4 @@
-export interface MenuItem {
+export interface MenuItemType {
   id: number;
   name: string;
   description: string;
@@ -7,8 +7,8 @@ export interface MenuItem {
   price: number;
 }
 
-interface Menu {
-  items: MenuItem[];
+interface MenuType {
+  items: MenuItemType[];
 }
 
 export default async function () {
@@ -17,7 +17,7 @@ export default async function () {
     if (!response.ok) {
       throw new Error('There was a problem in fetching the JSON data.');
     }
-    const menu: Menu = await response.json();
+    const menu: MenuType = await response.json();
     if (!menu) {
       throw new Error('There was a problem in parsing the JSON data.');
     }
