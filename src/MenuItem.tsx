@@ -8,7 +8,7 @@ export default function ({ item }: ItemType) {
   return (
     <li role='menu-item'>
       <img
-        src={`./images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
+        src={`/images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
         alt={item.image}
       />
       <dl>
