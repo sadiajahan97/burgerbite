@@ -25,7 +25,7 @@ export default function ({ item }: ItemType) {
       <dl>
         <dt>{item.name}</dt>
         <dd>{item.description}</dd>
-        <dd>{item.price}</dd>
+        <dd>BDT {item.price}</dd>
       </dl>
     </li>
   );
