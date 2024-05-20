@@ -8,18 +8,10 @@ export default function ({ item }: MenuItemProps) {
   return (
     <li role='menu-item'>
       <figure>
-        {item.category === 'Shakes' ? (
-          <img
-            className='shakes'
-            src={`/images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
-            alt={item.image}
-          />
-        ) : (
-          <img
-            src={`/images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
-            alt={item.image}
-          />
-        )}
+        <img
+          src={`/images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
+          alt={item.image}
+        />
         <figcaption className='offscreen'>{item.name}</figcaption>
       </figure>
       <dl>
