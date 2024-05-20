@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { MenuItemType } from './fetchData';
 import fetchData from './fetchData';
+import Header from './Header';
 import Menu from './Menu';
 import Sidebar from './Sidebar';
 
@@ -28,6 +29,7 @@ export default function () {
   );
   return (
     <>
+      <Header />
       <Menu categoryRefs={categoryRefs} menu={menu} />
       <Sidebar categoryRefs={categoryRefs} />
     </>
