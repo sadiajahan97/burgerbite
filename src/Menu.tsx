@@ -10,7 +10,7 @@ export default function ({ categories, menu }: MenuProps) {
   return (
     <main>
       {categories.map(category => (
-        <section>
+        <section aria-label={category}>
           <h2>{category}</h2>
           <ul role='menu'>
             {menu
