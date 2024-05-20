@@ -1,10 +1,10 @@
 import { MenuItemType } from './fetchData';
 
-interface ItemType {
+interface MenuItemProps {
   item: MenuItemType;
 }
 
-export default function ({ item }: ItemType) {
+export default function ({ item }: MenuItemProps) {
   return (
     <li role='menu-item'>
       <figure>
