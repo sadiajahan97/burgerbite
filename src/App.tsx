@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { MenuItemType } from './fetchData';
 import fetchData from './fetchData';
 import Menu from './Menu';
+import Sidebar from './Sidebar';
 
 export default function () {
   const [menu, setMenu] = useState<MenuItemType[]>([]);
@@ -12,10 +13,23 @@ export default function () {
     }
     fetchMenu();
   }, []);
-  const categories = Array.from(new Set(menu.map(item => item.category)));
+  const categories = [
+    'Chicken Burgers',
+    'Beef Burgers',
+    'Naga Drums',
+    'Shakes',
+    'Pankha Wings',
+    'Sides',
+    'Desserts',
+    'Fish',
+  ];
+  const categoryRefs = Object.fromEntries(
+    categories.map(category => [category, useRef<HTMLElement>(null)])
+  );
   return (
     <>
-      <Menu categories={categories} menu={menu} />
+      <Menu categoryRefs={categoryRefs} menu={menu} />
+      <Sidebar categoryRefs={categoryRefs} />
     </>
   );
 }
