@@ -12,11 +12,21 @@ export default function () {
     }
     fetchMenu();
   }, []);
+  const categories = Array.from(new Set(menu.map(item => item.category)));
   return (
-    <ul role='menu'>
-      {menu.map(item => (
-        <MenuItem key={item.id} item={item} />
+    <main>
+      {categories.map(category => (
+        <section>
+          <h2>{category}</h2>
+          <ul role='menu'>
+            {menu
+              .filter(item => item.category === category)
+              .map(item => (
+                <MenuItem key={item.id} item={item} />
+              ))}
+          </ul>
+        </section>
       ))}
-    </ul>
+    </main>
   );
 }
