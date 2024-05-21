@@ -11,6 +11,7 @@ export default function ({ item }: MenuItemProps) {
         <img
           src={`/images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
           alt={item.image}
+          loading='lazy'
         />
         <figcaption className='offscreen'>{item.name}</figcaption>
       </figure>
