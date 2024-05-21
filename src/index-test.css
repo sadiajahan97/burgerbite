@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1280px) {
+  div[role='option'] {
+    grid-template-columns: 176px 1fr;
+  }
+
+  figure img {
+    height: 111px;
+  }
+
+  /* figure {
+    width: 128px;
+  }
+
+  figure img {
+    height: 74px;
+  } */
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    grid-template-columns: 80vw 20vw;
+  }
+
+  section {
+    grid-template-columns: none;
+  }
+
+  div[role='option'] {
+    grid-template-columns: 224px 1fr;
+  }
+
+  figure img {
+    height: 148px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    grid-template-columns: 75vw 25vw;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    grid-template-columns: none;
+    grid-template-rows: 119.5px 1fr minmax(119.5px, auto);
+    grid-template-areas:
+      'header'
+      'main'
+      'aside';
+    height: 100vh;
+  }
+
+  ul {
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+}

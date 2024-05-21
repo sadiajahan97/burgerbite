@@ -6,7 +6,7 @@ interface MenuItemProps {
 
 export default function ({ item }: MenuItemProps) {
   return (
-    <li role='menu-item'>
+    <li>
       <figure>
         <img
           src={`/images/${item.category.replace(' ', '-').toLowerCase()}/${item.image}`}
@@ -19,6 +19,7 @@ export default function ({ item }: MenuItemProps) {
         <dd>{item.description}</dd>
         <dd>BDT {item.price}</dd>
       </dl>
+      <button>+ADD</button>
     </li>
   );
 }

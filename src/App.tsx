@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { MenuItemType } from './fetchData';
 import fetchData from './fetchData';
 import Header from './Header';
@@ -24,14 +24,11 @@ export default function () {
     'Desserts',
     'Fish',
   ];
-  const categoryRefs = Object.fromEntries(
-    categories.map(category => [category, useRef<HTMLElement>(null)])
-  );
   return (
     <>
       <Header />
-      <Menu categoryRefs={categoryRefs} menu={menu} />
-      <Sidebar categoryRefs={categoryRefs} />
+      <Menu categories={categories} menu={menu} />
+      <Sidebar categories={categories} />
     </>
   );
 }

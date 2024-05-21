@@ -9,10 +9,10 @@ interface MenuProps {
 export default function ({ categories, menu }: MenuProps) {
   return (
     <main>
-      {categories.map(category => (
-        <section aria-label={category}>
+      {categories.map((category, index) => (
+        <section key={index} id={category.replace(' ', '-').toLowerCase()}>
           <h2>{category}</h2>
-          <ul role='menu'>
+          <ul>
             {menu
               .filter(item => item.category === category)
               .map(item => (

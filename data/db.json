@@ -163,7 +163,7 @@
     {
       "id": 21,
       "name": "Naga Drums (1 Pcs)",
-      "description": "",
+      "description": "No Description Available",
       "image": "naga-drums.png",
       "category": "Naga Drums",
       "price": 110
@@ -171,7 +171,7 @@
     {
       "id": 22,
       "name": "Naga Drums (2 Pcs)",
-      "description": "",
+      "description": "No Description Available",
       "image": "naga-drums.png",
       "category": "Naga Drums",
       "price": 215
@@ -179,7 +179,7 @@
     {
       "id": 23,
       "name": "Cold Coffee",
-      "description": "",
+      "description": "No Description Available",
       "image": "cold-coffee.png",
       "category": "Shakes",
       "price": 160
@@ -187,7 +187,7 @@
     {
       "id": 24,
       "name": "Munch",
-      "description": "",
+      "description": "No Description Available",
       "image": "munch.png",
       "category": "Shakes",
       "price": 160
@@ -195,7 +195,7 @@
     {
       "id": 25,
       "name": "Oreo",
-      "description": "",
+      "description": "No Description Available",
       "image": "oreo.png",
       "category": "Shakes",
       "price": 180
@@ -203,7 +203,7 @@
     {
       "id": 26,
       "name": "Nutella",
-      "description": "",
+      "description": "No Description Available",
       "image": "nutella.png",
       "category": "Shakes",
       "price": 200
@@ -211,7 +211,7 @@
     {
       "id": 27,
       "name": "Snickers",
-      "description": "",
+      "description": "No Description Available",
       "image": "snickers.png",
       "category": "Shakes",
       "price": 200
@@ -219,7 +219,7 @@
     {
       "id": 28,
       "name": "Ferrero Rocher",
-      "description": "",
+      "description": "No Description Available",
       "image": "ferrero-rocher.png",
       "category": "Shakes",
       "price": 210
@@ -235,7 +235,7 @@
     {
       "id": 30,
       "name": "French Fries (Regular)",
-      "description": "",
+      "description": "No Description Available",
       "image": "french-fries.png",
       "category": "Sides",
       "price": 95
@@ -243,7 +243,7 @@
     {
       "id": 31,
       "name": "French Fries (Large)",
-      "description": "",
+      "description": "No Description Available",
       "image": "french-fries.png",
       "category": "Sides",
       "price": 160
@@ -251,7 +251,7 @@
     {
       "id": 32,
       "name": "Chicken Fingers (5 Pcs)",
-      "description": "",
+      "description": "No Description Available",
       "image": "chicken-fingers.png",
       "category": "Sides",
       "price": 175
@@ -259,7 +259,7 @@
     {
       "id": 33,
       "name": "Chicken Fingers (10 Pcs)",
-      "description": "",
+      "description": "No Description Available",
       "image": "chicken-fingers.png",
       "category": "Sides",
       "price": 330
