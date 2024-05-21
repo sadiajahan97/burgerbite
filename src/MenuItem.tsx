@@ -19,8 +19,10 @@ export default function ({ item }: MenuItemProps) {
         <dt>{item.name}</dt>
         <dd>{item.description}</dd>
         <dd>BDT {item.price}</dd>
+        <dd>
+          <button>+ADD</button>
+        </dd>
       </dl>
-      <button>+ADD</button>
     </li>
   );
 }
