@@ -25,7 +25,7 @@ html {
   background-color: var(--bun-color);
   display: grid;
   grid-template-columns: 85vw 15vw;
-  grid-template-rows: 104px calc(100vh - 104px);
+  grid-template-rows: 142px calc(100vh - 142px);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -53,6 +53,7 @@ header {
 }
 
 .logo div {
+  color: var(--lettuce-color);
   display: flex;
   gap: 0.5rem;
   font-family: 'Roboto Mono', monospace;
@@ -61,39 +62,23 @@ header {
   -webkit-text-stroke: 1px black;
 }
 
-.bun {
-  color: var(--bun-color);
-  display: inline-block;
-}
-
-.lettuce {
-  color: var(--lettuce-color);
-  display: inline-block;
-}
-
-.patty {
-  color: var(--patty-color);
-  display: inline-block;
-}
-
-.ketchup {
-  color: var(--ketchup-color);
-  display: inline-block;
-}
-
 .rotate-30-acw {
+  display: inline-block;
   transform: rotate(-30deg) translateY(17px);
 }
 
 .rotate-15-acw {
+  display: inline-block;
   transform: rotate(-15deg) translateY(4px);
 }
 
 .rotate-15-cw {
+  display: inline-block;
   transform: rotate(15deg) translateY(4px);
 }
 
 .rotate-30-cw {
+  display: inline-block;
   transform: rotate(30deg) translateY(17px);
 }
 

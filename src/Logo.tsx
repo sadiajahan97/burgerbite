@@ -1,14 +1,18 @@
 export default function () {
   return (
-    <div className='logo' aria-hidden='true'>
-      <div>
-        <span className='bun rotate-30-acw'>BU</span>
-        <span className='lettuce rotate-15-acw'>RG</span>
-        <span className='patty'>ER</span>
-        <span className='ketchup rotate-15-cw'>BI</span>
-        <span className='bun rotate-30-cw'>TE</span>
-      </div>
-      <img src='/images/burger.png' alt='burger.png' />
-    </div>
+    <svg width='150' height='120'>
+      <ellipse cx='75' cy='60' rx='75' ry='60' fill='var(--patty-color)' />
+      <defs>
+        <path id='curvePath' d='M30,80 A10,10 0 0,1 120,80' />
+      </defs>
+      <text fontSize='24' fontWeight='bold' fill='var(--bun-color)'>
+        <textPath href='#curvePath' startOffset='50%' textAnchor='middle'>
+          BURGER BITE
+        </textPath>
+      </text>
+      <image href='/images/burger.png' x='40' y='47.5' width='70' />
+    </svg>
   );
 }
+
+// DONE
